@@ -1,3 +1,12 @@
-const hello = 'Hello';
+import sum from "./utils/sum";
+
+const hello = "Hello";
 
 console.log(hello);
+console.log(sum(2, 2));
+
+// npx webpack
+
+// npx webpack --mode development
+
+// npx webpack --mode production
